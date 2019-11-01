@@ -1,0 +1,19 @@
+{
+  "name": "download-avatar",
+  "version": "1.0.0",
+  "description": "下载 https://www.zhihu.com/question/314609358 页面中，知乎用户Assassin上传的图片",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bagpipe": "^0.3.5",
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
